@@ -1,9 +1,9 @@
-#awd_sql
+#order by
 version: "3"
 services:
   f1:
     build: ./f1
-    image: awd_sql
+    image: sql
     ports:
       - "9900:80"
 
