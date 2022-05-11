@@ -5,6 +5,6 @@ services:
     build: ./f1
     image: sql
     ports:
-      - "9900:80"
+      - "8080:80"
 
  
