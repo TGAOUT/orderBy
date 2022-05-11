@@ -6,7 +6,6 @@ RUN apk update && \
     apk add --no-cache openssh tzdata && \ 
     cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
 	sed -i "s/skip-networking/#skip-networking/g" /etc/my.cnf.d/mariadb-server.cnf && \
-    echo "root:zxsk@123" | chpasswd && \
     apk add --no-cache openrc && \
     rc-update add sshd && \
     rc-status && \
