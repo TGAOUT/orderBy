@@ -1,0 +1,10 @@
+#awd_sql
+version: "3"
+services:
+  f1:
+    build: ./f1
+    image: awd_sql
+    ports:
+      - "9900:80"
+
+ 
